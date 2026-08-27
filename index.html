@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infografis Interaktif: Future Me, Please Don't Panic! | Teman Mind</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Chart.js CDN -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -54,13 +51,10 @@
 </head>
 <body class="bg-slate-900 text-slate-100 font-sans antialiased selection:bg-brand-cyan selection:text-slate-900">
 
-    <!-- Sticky Navigation Bar -->
     <nav class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800 px-4 py-3">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <div class="flex items-center space-x-3">
-                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-cyan to-brand-purple flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-brand-cyan/20">
-                    🧠
-                </div>
+                <img src="https://ibb.co/5xKjZL5Y" alt="Teman Mind Logo" class="h-10 w-auto object-contain rounded-lg">
                 <div>
                     <span class="font-extrabold text-lg text-white tracking-wide block leading-tight">TEMAN MIND</span>
                     <span class="text-xs text-brand-cyan font-medium">Group Guidance Dashboard</span>
@@ -71,16 +65,14 @@
                 <a href="#stages" class="hover:text-brand-cyan transition-colors">3-Tahap Pengalaman</a>
                 <a href="#rundown" class="hover:text-brand-cyan transition-colors">Rundown & Waktu</a>
                 <a href="#control" class="hover:text-brand-cyan transition-colors">Concern vs Control</a>
-                <a href="#outcomes" class="hover:text-brand-cyan transition-colors">Outcomes</a>
-                <a href="#interactive-planner" class="hover:text-brand-cyan transition-colors">Roadmap Planner</a>
+                <a href="#outcomes" class="hover:text-brand-cyan transition-colors">Outcomes & Rules</a>
             </div>
-            <a href="#interactive-planner" class="px-4 py-2 bg-gradient-to-r from-brand-cyan to-brand-teal text-slate-950 font-bold rounded-lg text-xs md:text-sm hover:brightness-110 transition-all shadow-md">
-                Buat Roadmap
+            <a href="#control" class="px-4 py-2 bg-gradient-to-r from-brand-cyan to-brand-teal text-slate-950 font-bold rounded-lg text-xs md:text-sm hover:brightness-110 transition-all shadow-md">
+                Simulasi Kendali
             </a>
         </div>
     </nav>
 
-    <!-- Hero Header -->
     <header id="overview" class="relative overflow-hidden pt-12 pb-16 px-4 border-b border-slate-800 bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950">
         <div class="max-w-6xl mx-auto text-center relative z-10">
             <div class="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-slate-800 border border-brand-cyan/30 text-brand-cyan text-xs font-semibold mb-6">
@@ -93,7 +85,6 @@
                 Mengubah kecemasan masa depan (*future anxiety*) dan *overthinking* menjadi arah langkah konkrit yang rasional, realistis, dan penuh rasa tenang.
             </p>
 
-            <!-- Event Quick Info Callouts -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-10">
                 <div class="bg-slate-800/80 border border-slate-700/60 rounded-xl p-4 text-center">
                     <div class="text-2xl mb-1">📅</div>
@@ -113,13 +104,12 @@
                 <div class="bg-slate-800/80 border border-slate-700/60 rounded-xl p-4 text-center">
                     <div class="text-2xl mb-1">🎯</div>
                     <div class="text-xs text-slate-400 font-medium">Target Luaran</div>
-                    <div class="text-sm md:text-base font-bold text-white">Personal Roadmap</div>
+                    <div class="text-sm md:text-base font-bold text-white">Personal Action Plan</div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- SECTION 1: KEY STATS & PHILOSOPHY -->
     <section class="py-12 px-4 max-w-7xl mx-auto">
         <div class="mb-8 text-center md:text-left">
             <h2 class="text-2xl md:text-3xl font-bold text-white mb-2">1. Mengapa Program Ini Hadir?</h2>
@@ -129,7 +119,6 @@
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-10">
-            <!-- Philosophy Cards -->
             <div class="space-y-4">
                 <div class="bg-slate-800/90 border-l-4 border-brand-cyan p-5 rounded-r-xl shadow-md">
                     <h3 class="text-lg font-bold text-brand-cyan mb-1 flex items-center">
@@ -157,7 +146,6 @@
                 </div>
             </div>
 
-            <!-- Chart 1 Container: Sources of Future Anxiety -->
             <div class="bg-slate-800/60 border border-slate-700/80 rounded-2xl p-6 shadow-xl">
                 <div class="mb-4">
                     <h3 class="text-lg font-bold text-white">Sumber Kecemasan Masa Depan Dominan</h3>
@@ -175,7 +163,6 @@
         </div>
     </section>
 
-    <!-- SECTION 2: 3-STAGE PARTICIPANT JOURNEY -->
     <section id="stages" class="py-12 px-4 bg-slate-950 border-y border-slate-800">
         <div class="max-w-7xl mx-auto">
             <div class="text-center mb-12">
@@ -185,9 +172,7 @@
                 </p>
             </div>
 
-            <!-- Stage Cards Process -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-                <!-- Stage 1 -->
                 <div class="bg-slate-900 border border-brand-cyan/40 rounded-2xl p-6 relative overflow-hidden group hover:border-brand-cyan transition-all">
                     <div class="absolute top-0 right-0 bg-brand-cyan/20 text-brand-cyan text-xs font-bold px-3 py-1 rounded-bl-xl">
                         TAHAP 01
@@ -207,7 +192,6 @@
                     </ul>
                 </div>
 
-                <!-- Stage 2 -->
                 <div class="bg-slate-900 border border-brand-purple/40 rounded-2xl p-6 relative overflow-hidden group hover:border-brand-purple transition-all">
                     <div class="absolute top-0 right-0 bg-brand-purple/20 text-brand-purple text-xs font-bold px-3 py-1 rounded-bl-xl">
                         TAHAP 02
@@ -227,7 +211,6 @@
                     </ul>
                 </div>
 
-                <!-- Stage 3 -->
                 <div class="bg-slate-900 border border-brand-coral/40 rounded-2xl p-6 relative overflow-hidden group hover:border-brand-coral transition-all">
                     <div class="absolute top-0 right-0 bg-brand-coral/20 text-brand-coral text-xs font-bold px-3 py-1 rounded-bl-xl">
                         TAHAP 03
@@ -250,7 +233,6 @@
         </div>
     </section>
 
-    <!-- SECTION 3: RUNDOWN & TIME ALLOCATION -->
     <section id="rundown" class="py-12 px-4 max-w-7xl mx-auto">
         <div class="mb-8 text-center md:text-left">
             <h2 class="text-2xl md:text-3xl font-bold text-white mb-2">3. Struktur Acara & Alokasi Waktu (3 Jam)</h2>
@@ -260,7 +242,6 @@
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-            <!-- Chart 2: Time Allocation Breakdown -->
             <div class="lg:col-span-5 bg-slate-800/60 border border-slate-700/80 rounded-2xl p-6 shadow-xl">
                 <h3 class="text-lg font-bold text-white mb-1">Proporsi Durasi Agenda</h3>
                 <p class="text-xs text-slate-400 mb-4">
@@ -276,7 +257,6 @@
                 </div>
             </div>
 
-            <!-- Detailed Interactive Agenda Timeline -->
             <div class="lg:col-span-7 bg-slate-800/40 border border-slate-700/60 rounded-2xl p-6">
                 <h3 class="text-lg font-bold text-white mb-4 flex items-center justify-between">
                     <span>Detail Jadwal Rinci</span>
@@ -284,7 +264,6 @@
                 </h3>
 
                 <div class="space-y-3 max-h-[480px] overflow-y-auto pr-2 custom-scrollbar">
-                    <!-- Item -->
                     <div class="p-3 bg-slate-800/90 rounded-xl border-l-4 border-slate-500 flex justify-between items-start">
                         <div>
                             <div class="text-xs font-bold text-slate-400">08.45 - 09.00 (15')</div>
@@ -361,7 +340,6 @@
         </div>
     </section>
 
-    <!-- SECTION 4: CONCERN VS CONTROL ANALYTICS & INTERACTIVE TOOL -->
     <section id="control" class="py-12 px-4 bg-slate-950 border-t border-slate-800">
         <div class="max-w-7xl mx-auto">
             <div class="mb-8 text-center">
@@ -372,7 +350,6 @@
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-10">
-                <!-- Chart 3: Concern vs Control Ratio -->
                 <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
                     <h3 class="text-lg font-bold text-white mb-1">Pergeseran Alokasi Energi Pikiran</h3>
                     <p class="text-xs text-slate-400 mb-4">
@@ -386,10 +363,9 @@
                     </p>
                 </div>
 
-                <!-- Interactive Self-Assessment Sorter Widget -->
                 <div class="bg-slate-900 border border-brand-teal/30 rounded-2xl p-6">
                     <div class="flex items-center justify-between mb-4">
-                        <h3 class="text-lg font-bold text-white">Simulasi Interaktif: Cek Pikirannmu</h3>
+                        <h3 class="text-lg font-bold text-white">Simulasi Interaktif: Cek Pikiranmu</h3>
                         <span class="text-xs bg-brand-teal/20 text-brand-teal px-2.5 py-1 rounded-full font-bold">Try It Now</span>
                     </div>
                     <p class="text-xs text-slate-300 mb-4">
@@ -422,7 +398,6 @@
         </div>
     </section>
 
-    <!-- SECTION 5: OUTCOMES & GROUND RULES -->
     <section id="outcomes" class="py-12 px-4 max-w-7xl mx-auto">
         <div class="mb-8 text-center md:text-left">
             <h2 class="text-2xl md:text-3xl font-bold text-white mb-2">5. Luaran Program & Aturan Main</h2>
@@ -432,7 +407,6 @@
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            <!-- Chart 4: Program Value Acquisition Radar -->
             <div class="lg:col-span-6 bg-slate-800/60 border border-slate-700/80 rounded-2xl p-6 shadow-xl">
                 <h3 class="text-lg font-bold text-white mb-1">Dimensi Luaran Peserta</h3>
                 <p class="text-xs text-slate-400 mb-4">
@@ -443,7 +417,6 @@
                 </div>
             </div>
 
-            <!-- Ground Rules Cards -->
             <div class="lg:col-span-6 space-y-3">
                 <h3 class="text-lg font-bold text-white mb-3">5 Aturan Emas Space Aman (Ground Rules)</h3>
                 
@@ -490,75 +463,6 @@
         </div>
     </section>
 
-    <!-- SECTION 6: INTERACTIVE PERSONAL ROADMAP GENERATOR -->
-    <section id="interactive-planner" class="py-12 px-4 bg-slate-950 border-t border-slate-800">
-        <div class="max-w-4xl mx-auto bg-gradient-to-b from-slate-900 to-slate-900/90 border border-brand-cyan/40 rounded-3xl p-6 md:p-10 shadow-2xl">
-            <div class="text-center mb-8">
-                <span class="px-3 py-1 bg-brand-cyan/20 text-brand-cyan text-xs font-bold rounded-full uppercase tracking-wider">
-                    Interactive Tool
-                </span>
-                <h2 class="text-2xl md:text-3xl font-extrabold text-white mt-3">Personal Roadmap Generator</h2>
-                <p class="text-slate-300 text-sm max-w-xl mx-auto mt-1">
-                    Coba rasakan pengalaman menyusun rencana langkah kecilmu secara mandiri sekarang!
-                </p>
-            </div>
-
-            <form id="roadmapForm" class="space-y-4 text-left mb-8">
-                <div>
-                    <label class="block text-xs font-semibold text-slate-300 mb-1">1. Kondisi / Fase Saat Ini</label>
-                    <input type="text" id="inputCurrentPhase" placeholder="Contoh: Bingung memilih arah karir setelah lulus" required class="w-full bg-slate-800 border border-slate-700 rounded-xl p-3 text-sm text-white focus:outline-none focus:border-brand-cyan">
-                </div>
-
-                <div>
-                    <label class="block text-xs font-semibold text-slate-300 mb-1">2. Satu Tujuan Realistis Terdekat</label>
-                    <input type="text" id="inputGoal" placeholder="Contoh: Merapikan CV dan Portofolio sederhana" required class="w-full bg-slate-800 border border-slate-700 rounded-xl p-3 text-sm text-white focus:outline-none focus:border-brand-cyan">
-                </div>
-
-                <div>
-                    <label class="block text-xs font-semibold text-slate-300 mb-1">3. Satu Langkah Terdekat Esok Hari (Next Immediate Step)</label>
-                    <input type="text" id="inputNextStep" placeholder="Contoh: Membuka template CV dan menulis pengalaman magang 1 jam" required class="w-full bg-slate-800 border border-slate-700 rounded-xl p-3 text-sm text-white focus:outline-none focus:border-brand-cyan">
-                </div>
-
-                <button type="submit" class="w-full py-3.5 bg-gradient-to-r from-brand-cyan via-teal-400 to-brand-coral text-slate-950 font-bold rounded-xl text-sm hover:opacity-95 transition-all shadow-lg">
-                    Generate My Personal Roadmap Card ✨
-                </button>
-            </form>
-
-            <!-- Card Result -->
-            <div id="roadmapCardResult" class="hidden p-6 bg-slate-950 border border-brand-cyan/60 rounded-2xl relative overflow-hidden animate-fade-in">
-                <div class="flex justify-between items-center mb-4 border-b border-slate-800 pb-3">
-                    <div class="flex items-center space-x-2">
-                        <span class="text-xl">🧭</span>
-                        <span class="font-extrabold text-white text-base">MY PERSONAL ROADMAP</span>
-                    </div>
-                    <span class="text-[10px] bg-brand-cyan/20 text-brand-cyan font-bold px-2 py-1 rounded">Teman Mind Certified</span>
-                </div>
-
-                <div class="space-y-3 text-left">
-                    <div>
-                        <div class="text-[11px] text-slate-400 font-semibold">Fase Saat Ini:</div>
-                        <div id="resultCurrent" class="text-sm font-medium text-slate-200"></div>
-                    </div>
-                    <div>
-                        <div class="text-[11px] text-brand-cyan font-semibold">Tujuan Realistis Terdekat:</div>
-                        <div id="resultGoal" class="text-sm font-bold text-white"></div>
-                    </div>
-                    <div class="p-3 bg-brand-cyan/10 border border-brand-cyan/30 rounded-xl">
-                        <div class="text-[11px] text-brand-cyan font-extrabold">🚀 SATU LANGKAH TERDEKAT:</div>
-                        <div id="resultNext" class="text-sm font-bold text-white"></div>
-                    </div>
-                </div>
-
-                <div class="mt-4 pt-3 border-t border-slate-800 text-center">
-                    <p class="text-xs text-slate-400 italic">
-                        "Kamu tidak harus punya semua rencana hidup yang matang hari ini untuk mulai melangkah besok."
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer class="py-8 px-4 border-t border-slate-800 text-center text-xs text-slate-400">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
             <div>
@@ -572,9 +476,7 @@
         </div>
     </footer>
 
-    <!-- JavaScript Logic & Chart Configs -->
     <script>
-        // Label Wrapping Logic (> 16 Chars)
         function wrapLabel(str, maxChars = 16) {
             if (!str) return '';
             if (typeof str !== 'string') return str;
@@ -594,7 +496,6 @@
             return lines;
         }
 
-        // Shared Tooltip Config
         const sharedTooltipConfig = {
             callbacks: {
                 title: function(tooltipItems) {
@@ -609,7 +510,6 @@
             }
         };
 
-        // Chart 1: Anxiety Sources (Horizontal Bar Chart)
         const ctxAnxiety = document.getElementById('chartAnxietySources').getContext('2d');
         const anxietyLabelsRaw = [
             'Kebimbangan Karir & First Job',
@@ -644,7 +544,6 @@
             }
         });
 
-        // Chart 2: Rundown Allocation (Doughnut Chart)
         const ctxRundown = document.getElementById('chartRundownShare').getContext('2d');
         const rundownLabelsRaw = [
             'Opening & Icebreak',
@@ -678,7 +577,6 @@
             }
         });
 
-        // Chart 3: Control vs Concern Ratio (Stacked Bar)
         const ctxControl = document.getElementById('chartControlRatio').getContext('2d');
         const controlLabelsRaw = ['Awal Sesi (Pre)', 'Pasca Sesi (Post)'];
         new Chart(ctxControl, {
@@ -714,7 +612,6 @@
             }
         });
 
-        // Chart 4: Outcomes Radar Chart
         const ctxRadar = document.getElementById('chartOutcomeRadar').getContext('2d');
         const radarLabelsRaw = [
             'Validasi Emosi',
@@ -754,7 +651,6 @@
             }
         });
 
-        // Interactive Circle of Control Sorter
         function toggleCheck(element, type) {
             const badge = element.querySelector('.status-badge');
             if (type === 'control') {
@@ -769,21 +665,6 @@
                 badge.innerText = '⚠️ SPHERE OF CONCERN';
             }
         }
-
-        // Interactive Personal Roadmap Form Generator
-        document.getElementById('roadmapForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            const current = document.getElementById('inputCurrentPhase').value;
-            const goal = document.getElementById('inputGoal').value;
-            const nextStep = document.getElementById('inputNextStep').value;
-
-            document.getElementById('resultCurrent').innerText = current;
-            document.getElementById('resultGoal').innerText = goal;
-            document.getElementById('resultNext').innerText = nextStep;
-
-            document.getElementById('roadmapCardResult').classList.remove('hidden');
-            document.getElementById('roadmapCardResult').scrollIntoView({ behavior: 'smooth' });
-        });
     </script>
 </body>
 </html>
